@@ -1,10 +1,83 @@
-My link in bio
+<html>
 <head>
+  <Style>
+    * {
+      border: thin red solid;
+    }
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color:#16161a;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+    .name {
+      color:#fffffe;
+      display: flex;
+      justify-content: center;
+    }
 
+    .banner {
+      display:flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display:flex;
+      justify-content: space-around;
+    }
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none;
+    }
+
+    .link {
+      background-color:#7f5af0;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+
+    .link a {
+      color:#fffffe;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-position: cover;
+      border-radius: 128px;
+      border-style:dotted;
+      border-width: 1.5mm;
+      border-color: #7f5af0;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit:cover;
+    }
+
+
+  </Style>
 </head>
 <body>
+  <div class="items">
+
   <div class="banner">
-    <img src="thumbnails/profile.jpg" alt="Ricardo Juarez selfie">
+    <img src="thumbnails/profile.jpg" alt="Ricardo Juarez selfie" class="banner-image">
   </div>
 
   <div class= name> 
@@ -13,25 +86,33 @@ My link in bio
 
   <div class="social-icons">
     <a href="https://github.com/jrzricardo" target="_blank">
+      GitHub
     </a>
 
     <a href="https://www.instagram.com/mai_gai/" target="_blank">
+      Instagram
     </a>
 
   <a href="https://www.twitch.tv/lalunakuma" target="_blank">    
+    Twitch
     </a>
   </div>
 
   <div class="link">
-    <img src="thumbnails/radio-garden.png" alt="Earth wearing headphones">
-    <a target="_blank" href="radio.garden">Radios From Around the Globe</a>
+    <img src="thumbnails/radio-garden.png" alt="Earth wearing headphones" class="thumbnail">
+    <a target="_blank" href="https://radio.garden/">Radios From Around the Globe</a>
   </div>
 
   <div class="link">
-    <img src="thumbnails/everynoise.png" alt="music notes">
+    <img src="thumbnails/everynoise.png" alt="music notes" class="thumbnail">
     <a target="_blank" href="https://everynoise.com/">Explore New Genres</a>
   </div>
 
-  <div class="link>"
-    
+  <div class="link">
+    <img src="thumbnails/neopets.jpg" alt="a crowd of neopets" class="thumbnail">
+    <a target="_blank" href="https://www.polygon.com/gaming/23824451/neopets-new-era-world-of-neopia-leadership"> Neopets is Finally in its Revival Era - Nicole Carpenter</a>
+  </div>
+  
+  </div>
 </body>
+</html>
