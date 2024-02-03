@@ -25,9 +25,23 @@
         flex-grow: 1;
         }
       .name {
-        color:#fffffe;
+        color:#f12121;
         display: flex;
         justify-content: center;
+        font-size: 30px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+
+        .name a {
+          background-color: #fffffe;
+          border-radius: 25px;
+          border-style: solid;
+          border-width: 1.5mm;
+          border-color: #f12121;
+          padding-left: 10px;
+          padding-right: 10px;
+
+          
         }
 
       .banner {
@@ -38,9 +52,17 @@
       .social-icons {
         display:flex;
         justify-content: space-around;
+
       }
       .social-icons a {
-        color: #fffffe;
+          color: #f12121;
+          background-color: #fffffe;
+          border-radius: 25px;
+          border-style: solid;
+          border-width: 1.5mm;
+          border-color: #f12121;
+          padding-left: 10px;
+          padding-right: 10px;
         text-decoration: none;
       }
 
@@ -50,9 +72,11 @@
         display: flex;
         align-items: center;
         padding: 5px;
+        border-style: dotted;
+        border-color: blanchedalmond;
       }
       .cheese {
-        background-color: gold;
+        background-color: rgb(244, 208, 4);
         border-radius: 25px;
         display: flex;
         align-items: center;
@@ -105,11 +129,11 @@
       .banner-image {
         width: 128px;
         height: 128px;
-        object-position: cover;
+        object-position: center;
         border-radius: 128px;
-        border-style:dotted;
+        border-style: solid;
         border-width: 1.5mm;
-        border-color: #7f5af0;
+        border-color: #f12121;
       }
 
       .thumbnail {
@@ -126,11 +150,12 @@
     <div class="items">
 
       <div class="banner">
-        <img src="thumbnails/profile.jpg" alt="Ricardo Juarez selfie" class="banner-image">
+        <img src="thumbnails/burger-bud.png" alt="Ricardo Juarez selfie" class="banner-image">
       </div>
 
       <div class= name> 
-        Ricardo Juarez
+        <a> Ricardo Juarez
+          </a>
       </div>
 
       <div class="social-icons">
