@@ -2,10 +2,17 @@
 <html>
   <head>
     <style>
+
       body {
+
+      
+        background-color: #e2e2e4;
+        opacity: 1;
+        background-image:  repeating-linear-gradient(45deg, #f12121 25%, transparent 25%, transparent 75%, #f12121 75%, #f12121), repeating-linear-gradient(45deg, #f12121 25%, #e2e2e4 25%, #e2e2e4 75%, #f12121 75%, #f12121);
+        background-position: 0 0, 40px 40px;
+        background-size: 80px 80px;
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color:#16161a;
         display: flex;
         justify-content: center;
         }
@@ -13,7 +20,7 @@
       .items {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 10px;
         max-width: 640px;
         flex-grow: 1;
         }
@@ -37,19 +44,63 @@
         text-decoration: none;
       }
 
-      .link {
-        background-color:#7f5af0;
+      .buns {
+        background-color: rgba(226, 152, 88);
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .cheese {
+        background-color: gold;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .meat {
+        background-color: maroon;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .lettuce {
+        background-color: rgb(34, 158, 34);
+        border-radius: 25px;
         display: flex;
         align-items: center;
         padding: 5px;
       }
 
-      .link a {
+
+      .buns a {
         color:#fffffe;
         text-decoration: none;
         text-align: center;
         flex-grow: 1;
       }
+
+      .cheese a {
+        color:#fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .meat a {
+        color:#fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+      .lettuce a {
+        color:#fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
 
       .banner-image {
         width: 128px;
@@ -96,19 +147,28 @@
         </a>
       </div>
 
-      <div class="link">
-        <img src="thumbnails/radio-garden.png" alt="Earth wearing headphones" class="thumbnail">
-        <a target="_blank" href="https://radio.garden/">Radios From Around the Globe</a>
+      <div class="buns">
+        <img src="/thumbnails/hulled-sesame-seeds.jpeg" class="thumbnail">
+        <a target="_blank" href="https://storables.com/garden/why-do-burger-buns-have-sesame-seeds/">Why Do Burger Buns Have Sesame Seeds - Oliver Mitchell</a>
       </div>
-
-      <div class="link">
-        <img src="thumbnails/everynoise.png" alt="music notes" class="thumbnail">
-        <a target="_blank" href="https://everynoise.com/">Explore New Genres</a>
+      
+      <div class="cheese">
+        <img src="/thumbnails/american cheese.jpeg" class="thumbnail">
+        <a target="_blank" href="https://www.rd.com/article/what-is-american-cheese/">What Is American Cheese, Exactly? - Allison Robicelli</a>
       </div>
-
-      <div class="link">
-        <img src="thumbnails/neopets.jpg" alt="a crowd of neopets" class="thumbnail">
-        <a target="_blank" href="https://www.polygon.com/gaming/23824451/neopets-new-era-world-of-neopia-leadership"> Neopets is Finally in its Revival Era - Nicole Carpenter</a>
+      
+      <div class="meat">
+        <img src="/thumbnails/Beef.jpeg" class="thumbnail">
+        <a target="_blank" href="https://georgiapellegrini.com/how-to-grind-meat-at-home/">How to Grind Meat at Home - Anjuli Pierce</a>
+      </div>      
+      
+      <div class="lettuce">
+        <img src="/thumbnails/lettuce.jpeg" class="thumbnail">
+        <a target="_blank" href="https://altifarm.com/blogs/health-food/lettuce-for-burgers">Lettuce for Burgers - Altifarm Enverde</a>
+      </div>      
+      <div class="buns">
+        <img src="/thumbnails/burger-buns.jpeg" class="thumbnail">
+        <a target="_blank" href="https://www.seriouseats.com/the-burger-lab-whats-the-best-bun-for-my-burger-taste-test">What's The Best Bun For My Burger - J. Kenji López-Alt</a>
       </div>
   
     </div>
