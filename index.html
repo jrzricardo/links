@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      body {
+
+      
+        background-color: #e2e2e4;
+        opacity: 1;
+        background-image:  repeating-linear-gradient(45deg, #f12121 25%, transparent 25%, transparent 75%, #f12121 75%, #f12121), repeating-linear-gradient(45deg, #f12121 25%, #e2e2e4 25%, #e2e2e4 75%, #f12121 75%, #f12121);
+        background-position: 0 0, 40px 40px;
+        background-size: 80px 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        }
+    
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 640px;
+        flex-grow: 1;
+        }
+      .name {
+        color:#f12121;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+
+        .name a {
+          background-color: #fffffe;
+          border-radius: 25px;
+          border-style: solid;
+          border-width: 1.5mm;
+          border-color: #f12121;
+          padding-left: 10px;
+          padding-right: 10px;
+
+          
+        }
+
+      .banner {
+        display:flex;
+        justify-content: center;
+        }
+
+      .social-icons {
+        display:flex;
+        justify-content: space-around;
+
+      }
+      .social-icons a {
+          color: #f12121;
+          background-color: #fffffe;
+          border-radius: 25px;
+          border-style: solid;
+          border-width: 1.5mm;
+          border-color: #f12121;
+          padding-left: 10px;
+          padding-right: 10px;
+        text-decoration: none;
+      }
+
+      .buns {
+        background-color: rgba(226, 152, 88);
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border-style: dotted;
+        border-color: blanchedalmond;
+      }
+      .cheese {
+        background-color: rgb(244, 208, 4);
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .meat {
+        background-color: maroon;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .lettuce {
+        background-color: rgb(34, 158, 34);
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+
+
+      .buns a {
+        color:#fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .cheese a {
+        color:#fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .meat a {
+        color:#fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+      .lettuce a {
+        color:#fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-position: center;
+        border-radius: 128px;
+        border-style: solid;
+        border-width: 1.5mm;
+        border-color: #f12121;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit:cover;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="items">
+
+      <div class="banner">
+        <img src="thumbnails/burger-bud.png" alt="Ricardo Juarez selfie" class="banner-image">
+      </div>
+
+      <div class= name> 
+        <a> Ricardo Juarez
+          </a>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/jrzricardo" target="_blank">
+          GitHub
+        </a>
+
+        <a href="https://www.instagram.com/mai_gai/" target="_blank">
+          Instagram
+        </a>
+
+        <a href="https://www.twitch.tv/lalunakuma" target="_blank">    
+          Twitch
+        </a>
+      </div>
+
+      <div class="buns">
+        <img src="/thumbnails/hulled-sesame-seeds.jpeg" class="thumbnail">
+        <a target="_blank" href="https://storables.com/garden/why-do-burger-buns-have-sesame-seeds/">Why Do Burger Buns Have Sesame Seeds - Oliver Mitchell</a>
+      </div>
+      
+      <div class="cheese">
+        <img src="/thumbnails/american cheese.jpeg" class="thumbnail">
+        <a target="_blank" href="https://www.rd.com/article/what-is-american-cheese/">What Is American Cheese, Exactly? - Allison Robicelli</a>
+      </div>
+      
+      <div class="meat">
+        <img src="/thumbnails/Beef.jpeg" class="thumbnail">
+        <a target="_blank" href="https://georgiapellegrini.com/how-to-grind-meat-at-home/">How to Grind Meat at Home - Anjuli Pierce</a>
+      </div>      
+      
+      <div class="lettuce">
+        <img src="/thumbnails/lettuce.jpeg" class="thumbnail">
+        <a target="_blank" href="https://altifarm.com/blogs/health-food/lettuce-for-burgers">Lettuce for Burgers - Altifarm Enverde</a>
+      </div>      
+      <div class="buns">
+        <img src="/thumbnails/burger-buns.jpeg" class="thumbnail">
+        <a target="_blank" href="https://www.seriouseats.com/the-burger-lab-whats-the-best-bun-for-my-burger-taste-test">What's The Best Bun For My Burger - J. Kenji López-Alt</a>
+      </div>
+  
+    </div>
+  </body>
+</html>
